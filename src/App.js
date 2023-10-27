@@ -15,6 +15,7 @@ function App() {
   return (
     <div>
       <BrowserRouter>
+      <Header/>
       <Routes>
       <Route index  path='/' element={<Home/>}/>
         <Route path='/conversion-cost' element={<Conversioncost/>}/>
